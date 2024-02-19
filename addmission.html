@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission form 2024</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="logo/favicon_io (1)/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="logo/favicon_io (1)/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="logo/favicon_io (1)/favicon-32x32.png">
+<link rel="manifest" href="/site.webmanifest">
+    <style>
+        html{
+            min-width: 900px;
+            width: 90%;
+            margin: 0 auto;
+            
+        }
+    .container{
+        background-color: #f2f2f2;
+        padding: 15px;
+        
+    }
+    h1{
+        width: 70%;
+        margin: 0 auto;
+        border: 2px solid black;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 2px 3px 3px gray;
+        text-transform: capitalize;
+        background-color: #ffff;
+        margin-bottom:30px ;
+        background-color: rgb(200, 234, 222);
+    }
+    p{
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: medium;
+        margin-left: 20px;
+        padding:5px;
+        line-height: 10px;
+        background-color : #Ffff;
+        border: 1px solid rgb(140, 139, 139);
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px rgb(157, 156, 156)
+    }
+
+   input[type="file"]{
+            float: right;
+    }
+  .file{
+            line-height: 30px;
+        }
+    input[type="submit"]{
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 30px;
+    background-color: #4dae;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    text-shadow: 2px 2px 3px black;
+    margin: 0 auto;
+        }
+        input[type="submit"]:hover{
+
+cursor: pointer;
+color: #f2f2f2;
+background: green;
+        }
+
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <header>
+<h1>Addmission form 2024</h1>
+</header>
+<p>Full_name: <input type="text" name="name" id="neme" placeholder="enter name"></p>
+<p class="file">Photo
+    <input type="file" name="img" id="img" required  >
+</p>
+<p class="file">signature
+    <input type="file" name="signature" id="signature" required>
+</p>
+<p>father_name: <input type="text" name="father_name" id="father_name" required placeholder="father_name" ></p>
+<p>mother_name: <input type="text" name="mother_name" id="mother_name" required placeholder="mother_name"></p>
+<p>address: <textarea name="address" id="address" cols="30" rows="2"></textarea></p>
+<p>Email: <input type="email" name="email" id="email" required placeholder="email"></p>
+<p>Mobile_number: <input type="number" name="phoen Mobile_number" id="Mobile_number" required placeholder="1122334455"></p>
+<p>D.O.B: <input type="date" name="dob" id="dob"></p>
+<p>catagory: <select name="catagory" id="catagory">
+    <option value="">--select--</option>
+    <option value="">Sc</option>
+    <option value="">OBC</option>
+    <option value="">ST</option>
+    <option value="">genral</option>
+</select></p>
+<fieldset><legend>gender</legend>
+    male: <input type="radio" name="Gender" id="Gender">
+    female: <input type="radio" name="Gender" id="Gender"></fieldset>
+  
+    <p>Course: <select name="course" id="course">
+        <option value="">--select--</option>
+        <option value="">Basic computer</option>
+        <option value="">RSCIT</option>
+        <option value="">C++</option>
+        <option value="">Web design</option>
+    </select></p>
+    <p>duration: <select name="duration" id="duration">
+        <option value="">--select--</option>
+        <option value="3_month">3_month</option>
+        <option value="6_month">6_month</option>
+        <option value="12_month">12_month</option>
+    </select></p>
+<p>decleration <input type="checkbox" name="accept" id="accept">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, placeat quaerat. Eaque doloribus aliquid sunt cum ipsa dignissimos tempora harum!</p>
+<input type="submit" value="submit">
+</form>
+</div>
+</body>
+</html>
